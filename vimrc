@@ -105,6 +105,12 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 ""
 call togglebg#map("<F5>")
 
+" Wrap text after a certain number of characters
+au BufRead,BufNewFile *.py,*.pyw, set textwidth=100
+
+" Use UNIX (\n) line endings.
+au BufNewFile *.py,*.pyw,*.c,*.h set fileformat=unix
+
 
 
 
