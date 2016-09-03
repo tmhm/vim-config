@@ -69,7 +69,7 @@ set number
 
 set history=1000
 
-set background=dark
+"set background=dark
 
 "语法高亮
 "syntax on
