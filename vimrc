@@ -34,6 +34,14 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jnurmine/Zenburn'
 
+"Flake8 plugin for vim
+"Plugin 'nvie/vim-flake8'
+
+"compiler plugin for python stylechecking tool
+"Plugin 'vim-script/pylint.vim'
+
+"autocmd FileType python complier pylint
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
