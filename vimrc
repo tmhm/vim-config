@@ -106,6 +106,7 @@ set incsearch
 "默认情况下，寻找匹配是高亮度显示的，该设置关闭高亮显示
 "set nohls
 
+set laststatus=2
 
 "custom keys
 let mapleader=" "
